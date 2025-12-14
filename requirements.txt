@@ -1,0 +1,66 @@
+# === Core Framework ===
+Flask
+flask-cors
+
+# === Production Server ===
+waitress
+
+# === Authentication & Security ===
+PyJWT
+passlib[bcrypt]
+bcrypt==3.2.0
+
+# === Database ===
+pymongo
+
+# === Environment Management ===
+python-dotenv
+
+# === AI/ML - LangChain & Vector Store ===
+langchain>=0.3.0,<0.4.0
+langchain-text-splitters>=0.3.0,<0.4.0
+langchain-groq>=0.2.0,<0.3.0
+langchain-huggingface>=0.1.0,<0.2.0
+langchain-chroma>=0.1.0,<0.2.0
+langchain-core>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+
+# === Vector Store & Embeddings ===
+chromadb
+sentence-transformers
+
+# === LLM Provider ===
+groq
+
+# === Document Processing ===
+pypdf
+python-docx
+python-pptx
+unstructured
+filetype
+pdfplumber
+
+# === Text Processing ===
+transformers
+
+# === Machine Learning ===
+scikit-learn
+numpy
+
+# === Security & Rate Limiting ===
+flask-limiter
+bleach
+
+# === Logging ===
+coloredlogs
+
+# === Utilities ===
+typing-extensions
+python-multipart
+requests
+
+# === Optional Dependencies (Uncomment if needed) ===
+# torch
+# torchvision
+# torchaudio
+wikipedia
